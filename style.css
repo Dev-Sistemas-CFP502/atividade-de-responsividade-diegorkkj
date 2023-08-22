@@ -33,6 +33,7 @@ display: flex;
 gap: 1.25rem;
 justify-content: center;
 margin: 2rem;
+flex-wrap: wrap;
 }
 
 .menu a {
@@ -126,6 +127,7 @@ color: #ffbb00;
 
 .vantagens-lista{
 padding: 1rem;
+flex-wrap: wrap;
 }
 
 .vantagens-lista li{
@@ -139,6 +141,7 @@ border-radius: 0.625rem;
 margin: 0,625rem 0;
 font-size: 1.4rem;
 }
+
 .rodape {
 width: 100%;
 text-align: center;
@@ -156,10 +159,9 @@ font-size: 2rem;
   display: grid;
   grid-template-columns: 1fr;
 }
-}
-
-@media screen and (max-width:682px){
 .vantagens{
   display: inline-block;
 }
 }
+
+
